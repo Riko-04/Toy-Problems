@@ -8,19 +8,21 @@
 </head>
 <body>
   <div class="container">
-    <div class="part" id="part1">
-      <h2>JavaScript File 1</h2>
-      <pre id="js1"></pre>
-    </div>
-
-    <div class="part" id="part2">
-      <h2>JavaScript File 2</h2>
-      <pre id="js2"></pre>
-    </div>
-
-    <div class="part" id="part3">
-      <h2>JavaScript File 3</h2>
-      <pre id="js3"></pre>
+    <h2><u>Grade Generator</u></h2>
+    <div class="flex">
+        <div class="card">
+            <div class="input">
+                <input type="number" id="math" placeholder="Mathematics">
+                <input type="number" id="eng" placeholder="Sciences">
+                <input type="number" id="lang" placeholder="Languages">
+                <input type="number" id="hum" placeholder="Humanities">
+                <input type="number" id="tech" placeholder="Technicals">
+                <button onclick="calculate()">Get Grade</button>
+                <p id="spot"></p>
+                <p id="spot1"></p>
+                <p id="spot2"></p>
+            </div>
+        </div>
     </div>
   </div>
 
