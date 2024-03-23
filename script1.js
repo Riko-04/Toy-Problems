@@ -1,4 +1,4 @@
-function calculate(){
+function calc(){
     let math = document.getElementById("math").value;
     eng = document.getElementById("eng").value;
     lang = document.getElementById("lang").value;
