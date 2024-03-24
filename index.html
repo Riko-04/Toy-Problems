@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h2><u>Grade Generator</u></h2>
+    <h2><u><i>Grade Generator</i></u></h2>
     <div class="flex">
         <div class="card">
             <div class="input">
@@ -24,6 +24,38 @@
             </div>
         </div>
     </div>
+  </div>
+
+  <div class="container1">
+    <h2><u><i>Speed Detector</i></u></h2>
+    <div class="flex">
+        <div class="card">
+            <label for="speedInput">Enter speed (km/h):</label>
+            <div class="input">
+                <input type="number" id="speedInput" placeholder="Enter speed...">
+            </div>
+            <button onclick="detectSpeed()">Detect Speed</button>
+            <div id="result"></div> <!-- Output will be displayed here -->
+        </div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <h2><u><i>Net Salary Calculator</i></u></h2>
+        <div class="flex">
+            <div class="card">
+                <label for="basicSalary">Enter Basic Salary:</label>
+                <div class="input">
+                    <input type="number" id="basicSalary" placeholder="Enter basic salary...">
+                </div>
+                <label for="benefits">Enter Benefits:</label>
+                <div class="input">
+                    <input type="number" id="benefits" placeholder="Enter benefits...">
+                </div>
+            </div>
+            <button onclick="calculateNetSalary()">Calculate Net Salary</button>
+            <div id="results" class="results-container"> </div> <!-- Output will be displayed here -->
+        </div>
   </div>
 
   <script src="./script1.js"></script>
